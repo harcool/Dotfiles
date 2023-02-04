@@ -11,8 +11,6 @@
 " `vim -u foo`).
 set nocompatible
 
-"disable key repeating.
-
 " Turn on syntax highlighting.
 syntax on
 
@@ -38,9 +36,6 @@ set laststatus=2
 " This configuration makes backspace behave more reasonably, in that you can
 " backspace over anything.
 set backspace=indent,eol,start
-
-" For highlighting search, 
-set hlsearch
 
 " By default, Vim doesn't let you hide a buffer (i.e. have a buffer that isn't
 " shown in any window) that has unsaved changes. This is to prevent you from "
@@ -83,3 +78,12 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
+
+"here all about vim plugin 
+"if you have not install plugin please install vim-plug
+call plug#begin('~/.vim/plugged')
+Plug 'ctrlpvim/ctrlp.vim'
+call plug#end()
+
+"fuzzy finder customization
+let g:ctrlp_working_path_mode = 'ra'
