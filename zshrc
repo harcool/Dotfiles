@@ -1,0 +1,12 @@
+export PS1="%2~ %#"
+export PATH=/usr/local/bin:$PATH
+export PATH=$HOME/.toolbox/bin:$PATH
+export ANDROID_HOME=$HOME/Documents/Android/sdk
+export Xapp_build_path=/Users/chuharin/Workspace/Xapp/src/AVSxAppNativeAppService/scripts/build-all.sh
+export Xapp_run_path=/Users/chuharin/Workspace/Xapp/src/AVSxAppNativeAppService/build/ 
+export PATH=$PATH:/usr/bin:/usr/local/bin:$HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/build-tools/30.0.0 
+export PATH=/Users/chuharin/.toolbox/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/chuharin/.toolbox/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/chuharin/bin:/Users/chuharin/Documents/Android/sdk/platform-tools:/Users/chuharin/Documents/Android/sdk/tools:/Users/chuharin/Documents/Android/sdk/build-tools/30.0.0:/usr/bin:/usr/local/bin:/Users/chuharin/bin:/Users/chuharin/Documents/Android/sdk/platform-tools:/Users/chuharin/Documents/Android/sdk/tools:/Users/chuharin/Documents/Android/sdk/build-tools/30.0.0:/usr/local/opt/curl/bin
+export PKG_CONFIG_PATH=:/opt/homebrew/opt/libffi/lib/pkgconfig:/opt/homebrew/opt/openssl@1.1/lib/pkgconfig
+export GST_PLUGIN_PATH=/opt/homebrew/lib/gstreamer-1.0/
+alias Remote="chuharin@dev-dsk-chuharin-2a-2a190d01.us-west-2.amazon.com"
+alias test="echo test successful"
